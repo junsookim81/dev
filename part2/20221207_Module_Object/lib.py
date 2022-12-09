@@ -1,0 +1,10 @@
+class A:
+    def a(self):
+        return 'a'
+    def b(self):
+        return 'ab'
+class B:
+    def b(self):
+        return 'b'
+    def a(self):
+        return 'ba'

@@ -1,0 +1,6 @@
+print('hello "world"')
+print('hello \"world\"')
+print('\"world"')
+print('hello ES \\ JS')
+print('hello \n\tworld')
+print("hello" 'work')
