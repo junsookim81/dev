@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.terry.proto;
+
+
+
+message Person{
+
+  string name = 1;
+
+  int32 age=42;
+
+  string email = 3;
+
+}
