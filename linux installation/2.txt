@@ -1,0 +1,47 @@
+$ cd /usr
+$ sudo wget https://cmake.org/files/v3.17/cmake-3.17.1-Linux-x86_64.sh -P /usr/
+$ sudo chmod 755 /usr/cmake-3.17.1-Linux-x86_64.sh
+$ sudo ./cmake-3.17.1-Linux-x86_64.sh --skip-license
+
+Installing Fastboot:
+$ sudo apt-get install fastboot
+
+Installing Perl:
+$ sudo apt-get install liblocal-lib-perl
+$ sudo apt-get install cpanminus
+$ sudo apt-get install libxml-simple-perl
+$ cpan
+ cpan> install Bundle::CPANxxl
+ cpan> install XML::Simple
+ cpan> upgrade
+Installing Filepp:
+$ sudo apt-get install filepp
+Installing Swig:
+$ sudo apt-get update -y 
+$ sudo apt-get install -y swig
+Installing Bison:
+$ sudo apt-get update -y 
+$ sudo apt-get install -y bison
+Installing Flex:
+$ sudo apt-get update
+$ sudo apt-get install flex
+Installing Git & PythonDev:
+SA8650 Software User Guide Installation and setup
+SP80-41043-4 Rev. AA Confidential – Qualcomm Technologies, Inc. and/or its affiliated companies – May Contain Trade Secrets 9 
+MAY CONTAIN U.S. AND INTERNATIONAL EXPORT CONTROLLED INFORMATION
+$ sudo apt-get install python-dev
+$ sudo apt-get install git
+Installing dtc v1.4.4
+Recommended v1.4.4 or above
+$ wget https://git.kernel.org/pub/scm/utils/dtc/dtc.git/snapshot/dtc1.4.4.tar.gz
+$ tar -xf dtc-1.4.4.tar.gz
+$ cd dtc-1.4.4
+$ sudo make PREFIX=/usr install
+Installing dotnet:
+To install DOTNET for Ubuntu 16.04, see : https://docs.microsoft.com/en-us/dotnet/core/install/linuxpackage-manager-ubuntu-1604
+$ wget -q https://packages.microsoft.com/config/ubuntu/16.04/packagesmicrosoft-prod.deb -O packages-microsoft-prod.deb
+$ sudo dpkg -i packages-microsoft-prod.deb
+$ sudo apt-get update
+$ sudo apt-get install apt-transport-https
+$ sudo apt-get update
+$ sudo apt-get install dotnet-sdk-2

@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\raddress.proto\x12\x0f\x63om.terry.proto\"2\n\x06Person\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0b\n\x03\x61ge\x18* \x01(\x05\x12\r\n\x05\x65mail\x18\x03 \x01(\tb\x06proto3'
+  serialized_pb=b'\n\raddress.proto\x12\x0f\x63om.terry.proto\"2\n\x06Person\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0b\n\x03\x61ge\x18\x02 \x01(\x05\x12\r\n\x05\x65mail\x18\x03 \x01(\tb\x06proto3'
 )
 
 
@@ -42,7 +42,7 @@ _PERSON = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
       name='age', full_name='com.terry.proto.Person.age', index=1,
-      number=42, type=5, cpp_type=1, label=1,
+      number=2, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
