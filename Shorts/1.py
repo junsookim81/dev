@@ -4,7 +4,7 @@ def greet(name) :
     return 'hi, '+name
     
 app=gradio.Interface(
-    inputs="text",
+    inputs=gradio.Textbox(lines=2, placeholder="Name Here..."),
     fn=greet,
     outputs="text"
 
